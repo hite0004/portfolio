@@ -1,0 +1,75 @@
+:root {
+    --bs-primary: #4237C0;
+    --bs-secondary: #F97A7A;
+    --bs-primary-rgb: 66, 55, 192;
+    --bs-secondary-rgb: 249, 122, 122;
+    --bs-primary-text-emphasis: #4237C0;
+    --bs-secondary-text-emphasis: #F97A7A;
+}
+
+.btn-outline-primary,
+.btn-primary {
+    --bs-btn-color: #000;
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-bg: var(--bs-primary);
+    --bs-btn-hover-border-color: var(--bs-primary);
+    --bs-btn-active-bg: var(--bs-primary);
+    --bs-btn-active-border-color: var(--bs-primary);
+    --bs-btn-disabled-bg: var(--bs-primary);
+    --bs-btn-disabled-border-color: var(--bs-primary);
+}
+
+.btn-outline-primary {
+    --bs-btn-bg: transparent;
+    --bs-btn-color: var(--bs-primary);
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Hedvig Letters Serif', serif;
+
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 95%;
+}
+
+h3 {
+    font-weight: bolder;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.cont-info {
+    font-size: 23px;
+    padding: 30px;
+}
+
+h4 {
+    font-weight: bolder;
+    text-align: center;
+}
+
+form {
+    padding: 30px;
+}
+
+
+.btn {
+    background-color: #F97A7A;
+    color: #000;
+    font-weight: bold;
+}
+
+.btt {
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+}

@@ -1,0 +1,82 @@
+:root {
+    --bs-primary: #4237C0;
+    --bs-secondary: #F97A7A;
+    --bs-primary-rgb: 66, 55, 192;
+    --bs-secondary-rgb: 249, 122, 122;
+    --bs-primary-text-emphasis: #4237C0;
+    --bs-secondary-text-emphasis: #F97A7A;
+}
+
+.btn-outline-primary,
+.btn-primary {
+    --bs-btn-color: #000;
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-bg: var(--bs-primary);
+    --bs-btn-hover-border-color: var(--bs-primary);
+    --bs-btn-active-bg: var(--bs-primary-bg-subtle);
+    --bs-btn-active-border-color: var(--bs-primary-bg-subtle);
+    --bs-btn-disabled-bg: var(--bs-primary-bg-subtle);
+    --bs-btn-disabled-border-color: var(--bs-primary-bg-subtle);
+}
+
+.btn-outline-primary {
+    --bs-btn-bg: transparent;
+    --bs-btn-color: var(--bs-primary);
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Hedvig Letters Serif', serif;
+
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 95%;
+}
+
+h3 {
+    background-color: pink;
+    width: fit-content;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.intro {
+    background-color: lightgray;
+    width: fit-content;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.topic {
+    font-size: 23px;
+    text-decoration: underline;
+}
+
+.btt {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+@media screen and (min-width:760px) {
+    .topic {
+        text-align: center;
+    }
+}
